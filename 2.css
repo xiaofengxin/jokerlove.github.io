@@ -1,0 +1,97 @@
+body{
+    background-color: aliceblue;
+    background-image: url("./images/back\(1\).jpg")
+}
+#header{
+  background-image: url("./images/5.jpg");
+  margin: 0px;
+  height: 108px;
+  font-size: 85px; 
+  font-style: italic;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav{
+  margin: 0px;
+  display: block;
+  text-align: center;
+ background-color:darkturquoise;
+ border: 1px;
+ border-radius: 1px;
+ 
+}
+nav ul{
+  font-size: large;
+  margin: 0px;
+    list-style-type: none;
+    padding: 15px 5px 15px 5px;
+}
+
+  nav ul li{
+    list-style-type:circle;
+    display: inline;
+    display: inline;
+    padding: 25px 30px 25px 30px;
+}
+nav ul li a{
+  text-decoration: none;   /* 去掉下划线 */
+  font-style: bold;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.more{
+  color: red !important;
+}
+.nav{
+  width: 1200px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  background:#669a98;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav span:hover,a:hover{
+  color: tomato ;
+  transform: scale(1.2);
+  transition: all 0.5s ;
+}
+.container1{
+    margin: 200px auto;
+    display: flex;
+    height: 500px;
+    padding: 20px;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+}
+.container2{
+    margin:200px auto;
+    display: flex;
+    height: 500px;
+    padding: 20px;
+flex-direction: row;
+justify-content: space-around;
+text-align: center;
+}
+
+.tem2{
+background-color: blue;
+color:brown;
+width: 300px;
+height: 400px;
+margin:5px;
+text-align: center;
+}
+.item2{
+    background-color: blue;
+    color:brown;
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    text-align: center;
+    }
+   
